@@ -2,3 +2,69 @@
     background-image: linear-gradient(to bottom, rgba(24, 25, 32, 0.52), rgb(0, 0, 0)), url(background-3d.jpg);
     background-size: cover;
 }
+.badge{
+    top: 0;
+    transition: all 0.2s ease;
+    border-radius: 0.75rem !important;
+}
+.badge:before,
+.badge:after {
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    justify-content: center;
+}
+.badge:before {
+    transform: rotate(60deg);
+}
+.badge:after {
+    transform: rotate(-60deg);
+}
+.badge:hover {
+    top: -4px; 
+}
+.w-100px{
+    width: 100px;
+}
+.ribbon {
+    position: absolute;
+    border-radius: 4px;
+    padding: 5px 5px 4px 5px;
+    width: 100px;
+    z-index: 11;
+    color: #fff;
+    bottom: 12px;
+    left: 50%;
+    margin-left: -55px;
+    height: 15px;
+    font-size: 14px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.27);
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    background: rgb(55, 65, 81);
+    cursor: default;
+}
+.m_type1{
+    margin-left: -29px;
+}
+.-ml-java{
+    margin-left: -30px;
+}
+.-ml-python{
+    margin-left: -38px;
+}
+.-ml-css {
+    margin-left: -27px;
+}
+.primary-element {
+    background: linear-gradient(to bottom right, rgb(18, 24, 40) 0%, rgb(39, 47, 71) 100%);
+    color: rgb(18, 24, 40);
+}
