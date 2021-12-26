@@ -1,0 +1,4 @@
+.bg-customize {
+    background-image: linear-gradient(to bottom, rgba(24, 25, 32, 0.52), rgb(0, 0, 0)), url(background-3d.jpg);
+    background-size: cover;
+}

@@ -1,0 +1,19 @@
+.navbar-1-4 .btn-fill {
+    background-color: #525298;
+    transition: 0.3s;
+}
+
+.navbar-1-4 .btn-fill:hover {
+    background-color: #5353a8;
+    transition: 0.3s;
+}
+
+.navbar-1-4 nav a.nav-link:hover {
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar-1-4 #menu-toggle:checked + #menu,
+.navbar-1-4 #menu-toggle:checked + #menu + #menu {
+    display: block;
+}
